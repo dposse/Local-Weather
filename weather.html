@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Weather</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="weather.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<div id="weather-info">
+			<div class="name">location</div>
+			<div id="location"></div>
+
+			<div class="name">temperature</div>
+			<div id="temperature"></div>
+			<span id="tempFarenheit">F</span><span id="divider">    </span><span id="tempCelsius">C</span>
+
+			<div id="condition"></div>
+			<div id="weather-icon"></div>
+		</div>
+
+		<div id="footer">
+			local weather created by <a href="http://codepen.io/dposse/">dposse</a>
+		</div>
+	</div>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="weather.js"></script>
+</body>
+</html>
